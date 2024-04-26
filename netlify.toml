@@ -3,5 +3,6 @@
   publish = "dist"
 
 [[redirects]]
-  source = "/(.*)"
-  destination = "/"
+  from = "/*" 
+  to = "/:splat"  
+  status = 200 
