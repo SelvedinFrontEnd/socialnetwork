@@ -3,5 +3,6 @@
   publish = "build/"
 
 [[redirects]]
-  source = "/(.*)"
-  destination = "/"
+  from = "/*"
+  to = "/index.html"
+  status = 200
